@@ -33,7 +33,7 @@ export function render(data) {
         title.textContent = product.title
         price.textContent = product.price
         detailsButton.textContent = 'More info'
-        detailsButton.href = `products/${product.id}`
+        detailsButton.href = `?productId=${product.id}`
 
 
         //append all

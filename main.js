@@ -25,7 +25,7 @@ function loadResource(src) {
 const appContainer = document.getElementById('app')
 const searchParams = new URLSearchParams(location.search)
 
-const productId = searchParams.get('id')
+const productId = searchParams.get('productId')
 console.log(searchParams)
 
 function renderPage (moduleName, apiUrl, css) {
